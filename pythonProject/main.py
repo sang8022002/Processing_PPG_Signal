@@ -48,6 +48,7 @@ SPO2 = 110 - 25*(acDivDcRed/acDivDcIr)
 # plt.figure("SPO2")
 plt.xlabel("Samples")
 plt.ylabel("SPO2")
+plt.title("SPO2")
 plt.plot(SPO2)
 plt.show()
 
