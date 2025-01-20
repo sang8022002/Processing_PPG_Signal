@@ -14,9 +14,9 @@ fs = 25
 colum_red = "red"
 colum_ir = "ir"
 ArrayIR = pd.read_csv(file_name,usecols= [colum_ir]).to_numpy()
-# print(f"ArrayIR: {ArrayIR}")
+print(f"ArrayIR: {ArrayIR[0]}")
 ArrayRed = pd.read_csv(file_name,usecols= [colum_red]).to_numpy()
-# print(f"ArrayRed: {ArrayRed}")
+print(f"ArrayRed: {ArrayRed[0]}")
  
 # make a move window find min and max of ArrayIR
 def movmin1(A, k):
@@ -30,11 +30,11 @@ ArrayIR = pd.DataFrame(ArrayIR)
 ArrayRed = pd.DataFrame(ArrayRed)
 #calculate ac/dc ir
 max_ir = movmax1(ArrayIR, fs)
-print(f"max_ir: {max_ir}")
+# print(f"max_ir: {max_ir}")
 min_ir = movmin1(ArrayIR, fs)
-print(f"min_ir: {min_ir}")
+# print(f"min_ir: {min_ir}")
 baseline_data_ir = (max_ir + min_ir)/2
-print(f"baseline_data_ir: {baseline_data_ir}")
+# print(f"baseline_data_ir: {baseline_data_ir}")
 acDivDcIr = (max_ir - min_ir)/baseline_data_ir
 
 #calculate ac/dc red
