@@ -14,13 +14,17 @@
         <b>Figure 1: Formula to Calculate SpO2</b>
     </p>
 </div> -->
-<div style="display: flex; flex-direction: column; align-items: center;">
+<!-- <div style="display: flex; flex-direction: column; align-items: center;">
     <img src="pictures/How_to_caculate_Spo2.png" style="width:100%; max-width:800px; height:auto; border:1px solid #ddd; border-radius:8px;">
     <p style="font-size:16px; color:#555; font-weight:bold; text-align:center;">
         Figure 1: Formula to Calculate SpO2
     </p>
-</div>
-
+</div> -->
+<p align="center">
+    <img src="pictures/How_to_caculate_Spo2.png" style="width:80%; max-width:1000px; height:auto; border:1px solid #ddd; border-radius:8px;">
+    <br>
+    <b>Figure 1: Formula to Calculate SpO2</b>
+</p>
 
 - SpO2 = 110 - 25*R with R defined above picture
 
