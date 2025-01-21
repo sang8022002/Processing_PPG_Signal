@@ -8,12 +8,19 @@
     </p>
 </div> -->
 
-<div style="text-align:center; background-color:#f4f4f9; padding:15px; border:1px solid #e0e0e0; border-radius:8px;">
+<!-- <div style="text-align:center; background-color:#f4f4f9; padding:15px; border:1px solid #e0e0e0; border-radius:8px;">
     <img src="pictures/How_to_caculate_Spo2.png" style="width:1000px; height:auto; border:1px solid #ddd; padding:5px; border-radius:5px;">
     <p style="font-size:14px; color:#555; font-weight:bold; text-align:center;">
         <b>Figure 1: Formula to Calculate SpO2</b>
     </p>
+</div> -->
+<div style="display: flex; flex-direction: column; align-items: center;">
+    <img src="pictures/How_to_caculate_Spo2.png" style="width:100%; max-width:800px; height:auto; border:1px solid #ddd; border-radius:8px;">
+    <p style="font-size:16px; color:#555; font-weight:bold; text-align:center;">
+        Figure 1: Formula to Calculate SpO2
+    </p>
 </div>
+
 
 - SpO2 = 110 - 25*R with R defined above picture
 
