@@ -10,7 +10,7 @@
 - SpO2 = 110 - 25*R with R defined above picture
 
 # 2. Result
-- This is the result I collected data by sensor MAX30102 and processing signal by python.
+- Figure 2 is the result I collected data by sensor MAX30102 and caculate SpO2 by python.
     <p align="center">
     <img src="pictures/spo2.png" alt="Result SpO2" width="1000">
     <br>
